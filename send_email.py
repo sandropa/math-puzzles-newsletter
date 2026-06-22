@@ -36,11 +36,10 @@ puzzle = puzzles[index]
 def render(strips):
     """Crop the puzzle's strips from the PDF and stack them into one PNG."""
     doc = fitz.open(stream=urllib.request.urlopen(URL).read(), filetype="pdf")
-    w = doc[0].rect.width
     imgs = []
-    for page, top, bottom in strips:
+    for page, top, bottom, x0, x1 in strips:
         pix = doc[page].get_pixmap(
-            matrix=fitz.Matrix(ZOOM, ZOOM), clip=fitz.Rect(60, top, w - 60, bottom)
+            matrix=fitz.Matrix(ZOOM, ZOOM), clip=fitz.Rect(x0, top, x1, bottom)
         )
         imgs.append(Image.frombytes("RGB", (pix.width, pix.height), pix.samples))
     if len(imgs) > 1:
@@ -72,7 +71,14 @@ msg["To"] = os.environ["RECIPIENT_EMAIL"]
 msg["Subject"] = f"Daily Puzzle #{index + 1}: {puzzle['name']}"
 msg.set_content(f"Today's puzzle: {puzzle['name']} — view with images enabled.")
 msg.add_alternative(
-    '<div style="font-family:Georgia,serif"><img src="cid:puzzle" style="max-width:100%;display:block"></div>',
+    '<div style="font-family:Georgia,serif;padding:40px;box-sizing:border-box">'
+    '<img src="cid:puzzle" style="max-width:100%;display:block">'
+    "<!-- attribution (off for now):"
+    '<p style="color:#888;font-size:12px;margin-top:16px">'
+    'From <i>Mathematical Puzzles</i> (Revised Edition) by Peter Winkler — '
+    'free at <a href="https://math.dartmouth.edu/~pw/">math.dartmouth.edu/~pw</a>.'
+    "</p>-->"
+    "</div>",
     subtype="html",
 )
 html_part = msg.get_payload()[1]

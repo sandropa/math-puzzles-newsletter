@@ -46,6 +46,20 @@ def content_bottom(page):
     return foot - 6
 
 
+def content_x(page, top, bottom):
+    """Left/right edge of all text + figures in the vertical band [top, bottom].
+    Crops flush to content, killing the page-margin shift between recto/verso."""
+    x0, x1 = PAGE_H, 0  # PAGE_H is a safely-large initial left
+    rects = [s["bbox"] for b in page.get_text("dict")["blocks"]
+             for l in b.get("lines", []) for s in l["spans"]]
+    rects += [i["bbox"] for i in page.get_image_info()]
+    rects += [d["rect"] for d in page.get_drawings()]
+    for rx0, ry0, rx1, ry1 in rects:
+        if ry1 > top and ry0 < bottom:  # intersects the band
+            x0, x1 = min(x0, rx0), max(x1, rx1)
+    return (x0 - 2, x1 + 2) if x1 > x0 else (60, PAGE_H)
+
+
 heads = [(p, y, name) for p in range(FIRST, LAST + 1) for y, name in headings(doc[p])]
 
 
@@ -57,7 +71,8 @@ def strips(i):
         top = sy - 6 if p == sp else CONT_TOP
         bot = ey - 6 if p == ep else content_bottom(doc[p])
         if bot - top > 4:
-            out.append([p, round(top, 1), round(bot, 1)])
+            x0, x1 = content_x(doc[p], top, bot)
+            out.append([p, round(top, 1), round(bot, 1), round(x0, 1), round(x1, 1)])
     return out
 
 

@@ -1,4 +1,4 @@
-name: daily-hello
+name: daily-puzzle
 
 on:
   schedule:
