@@ -1,0 +1,3437 @@
+[
+{
+"name": "Frames on a Chessboard",
+"strips": [
+[
+56,
+426.1,
+520.1
+]
+]
+},
+{
+"name": "Service Options",
+"strips": [
+[
+51,
+215.2,
+408.5
+]
+]
+},
+{
+"name": "Lame Rook",
+"strips": [
+[
+59,
+527.7,
+625.2
+]
+]
+},
+{
+"name": "Cutting the Necklace",
+"strips": [
+[
+17,
+602.1,
+683.2
+],
+[
+18,
+110,
+118.5
+]
+]
+},
+{
+"name": "Peek Advantage",
+"strips": [
+[
+30,
+118.5,
+219.5
+]
+]
+},
+{
+"name": "Falling Ants",
+"strips": [
+[
+30,
+448.2,
+548.3
+]
+]
+},
+{
+"name": "Lost Boarding Pass",
+"strips": [
+[
+29,
+408.5,
+510.4
+]
+]
+},
+{
+"name": "Circular Shadows I",
+"strips": [
+[
+20,
+566.8,
+625.9
+]
+]
+},
+{
+"name": "Even-sum Billiards",
+"strips": [
+[
+38,
+529.1,
+601.6
+]
+]
+},
+{
+"name": "Righting the Pancakes",
+"strips": [
+[
+20,
+118.5,
+388.7
+]
+]
+},
+{
+"name": "Splitting the Stacks",
+"strips": [
+[
+42,
+342.4,
+484.3
+]
+]
+},
+{
+"name": "Swapping Executives",
+"strips": [
+[
+19,
+474.3,
+600.4
+]
+]
+},
+{
+"name": "Adding, Multiplying, and Grouping",
+"strips": [
+[
+26,
+187.3,
+275.1
+]
+]
+},
+{
+"name": "Same Sum Subsets",
+"strips": [
+[
+19,
+118.5,
+207.7
+]
+]
+},
+{
+"name": "Slicing the Cube",
+"strips": [
+[
+11,
+520.2,
+611.7
+]
+]
+},
+{
+"name": "Spinning Switches",
+"strips": [
+[
+18,
+267.4,
+377.7
+]
+]
+},
+{
+"name": "Bugs on a Pyramid",
+"strips": [
+[
+31,
+118.5,
+213.1
+]
+]
+},
+{
+"name": "Second Ace",
+"strips": [
+[
+15,
+384.7,
+469.2
+]
+]
+},
+{
+"name": "Splitting a Polygon",
+"strips": [
+[
+49,
+520.6,
+626.1
+]
+]
+},
+{
+"name": "Easy Cake Division",
+"strips": [
+[
+13,
+448.9,
+507.6
+]
+]
+},
+{
+"name": "Love in Kleptopia",
+"strips": [
+[
+62,
+118.5,
+390.4
+]
+]
+},
+{
+"name": "Funny Dice",
+"strips": [
+[
+63,
+566.4,
+683.2
+],
+[
+64,
+110,
+163.2
+]
+]
+},
+{
+"name": "Angry Baseball",
+"strips": [
+[
+56,
+520.1,
+626.1
+]
+]
+},
+{
+"name": "Wins in a Row",
+"strips": [
+[
+55,
+565.5,
+683.2
+],
+[
+56,
+110,
+118.5
+]
+]
+},
+{
+"name": "Faulty Combination Lock",
+"strips": [
+[
+33,
+465.5,
+683.2
+],
+[
+34,
+110,
+118.5
+]
+]
+},
+{
+"name": "Hats and Infinity",
+"strips": [
+[
+28,
+197.4,
+331.5
+]
+]
+},
+{
+"name": "Unanimous Hats",
+"strips": [
+[
+21,
+255.6,
+395.8
+]
+]
+},
+{
+"name": "Prisoners and Gloves",
+"strips": [
+[
+34,
+118.5,
+224.4
+]
+]
+},
+{
+"name": "Sums of Two Squares",
+"strips": [
+[
+25,
+118.5,
+200.6
+]
+]
+},
+{
+"name": "Touring an Island",
+"strips": [
+[
+62,
+390.4,
+508.8
+]
+]
+},
+{
+"name": "Matching Coins",
+"strips": [
+[
+52,
+118.5,
+332.1
+]
+]
+},
+{
+"name": "Worst Route",
+"strips": [
+[
+54,
+330.4,
+484.8
+]
+]
+},
+{
+"name": "Three Negatives",
+"strips": [
+[
+31,
+319.6,
+378.3
+]
+]
+},
+{
+"name": "Home-field Advantage",
+"strips": [
+[
+39,
+625.8,
+683.2
+],
+[
+40,
+110,
+185.8
+]
+]
+},
+{
+"name": "Covering the Stains",
+"strips": [
+[
+67,
+442.2,
+528.0
+]
+]
+},
+{
+"name": "Cards from Their Sum",
+"strips": [
+[
+22,
+363.5,
+625.1
+]
+]
+},
+{
+"name": "Finding the Counterfeit",
+"strips": [
+[
+10,
+267.2,
+353.5
+]
+]
+},
+{
+"name": "Half-right Hats",
+"strips": [
+[
+23,
+118.5,
+248.7
+]
+]
+},
+{
+"name": "Fair Play",
+"strips": [
+[
+14,
+445.6,
+498.3
+]
+]
+},
+{
+"name": "Three-Way Duel",
+"strips": [
+[
+16,
+586.4,
+683.2
+],
+[
+17,
+110,
+118.5
+]
+]
+},
+{
+"name": "Cube Magic",
+"strips": [
+[
+58,
+238.7,
+290.8
+]
+]
+},
+{
+"name": "Summing Fractions",
+"strips": [
+[
+52,
+462.0,
+556.0
+]
+]
+},
+{
+"name": "Bulgarian Solitaire",
+"strips": [
+[
+69,
+342.6,
+677.2
+]
+]
+},
+{
+"name": "Finding a Jack",
+"strips": [
+[
+23,
+248.7,
+319.2
+]
+]
+},
+{
+"name": "Breaking a Chocolate Bar",
+"strips": [
+[
+22,
+118.5,
+253.5
+]
+]
+},
+{
+"name": "Picking the Athletic Committee",
+"strips": [
+[
+64,
+163.2,
+337.5
+]
+]
+},
+{
+"name": "Roulette for Parking Money",
+"strips": [
+[
+65,
+461.3,
+543.7
+]
+]
+},
+{
+"name": "Shoelaces at the Airport",
+"strips": [
+[
+28,
+527.5,
+613.2
+]
+]
+},
+{
+"name": "Box in a Box",
+"strips": [
+[
+52,
+556.0,
+626.1
+]
+]
+},
+{
+"name": "All Right or All Wrong",
+"strips": [
+[
+28,
+331.5,
+393.4
+]
+]
+},
+{
+"name": "Whose Bullet?",
+"strips": [
+[
+13,
+118.5,
+189.1
+]
+]
+},
+{
+"name": "Factorial Coincidence",
+"strips": [
+[
+43,
+227.0,
+287.4
+]
+]
+},
+{
+"name": "Buffon’s Needle",
+"strips": [
+[
+66,
+520.4,
+578.3
+]
+]
+},
+{
+"name": "Spaghetti Loops",
+"strips": [
+[
+19,
+297.0,
+474.3
+]
+]
+},
+{
+"name": "Boxing the Mountain State",
+"strips": [
+[
+9,
+539.9,
+589.1
+]
+]
+},
+{
+"name": "Life-saving Transposition",
+"strips": [
+[
+67,
+185.5,
+331.5
+]
+]
+},
+{
+"name": "Rectangles Tall and Wide",
+"strips": [
+[
+34,
+532.2,
+626.1
+]
+]
+},
+{
+"name": "Fibonacci Multiples",
+"strips": [
+[
+62,
+579.4,
+626.0
+]
+]
+},
+{
+"name": "Expecting the Worst",
+"strips": [
+[
+17,
+177.3,
+236.1
+]
+]
+},
+{
+"name": "Alternate Connection",
+"strips": [
+[
+48,
+553.3,
+625.6
+]
+]
+},
+{
+"name": "Two Sheriffs",
+"strips": [
+[
+68,
+221.3,
+408.8
+]
+]
+},
+{
+"name": "Measuring with Fuses",
+"strips": [
+[
+23,
+319.2,
+389.6
+]
+]
+},
+{
+"name": "Pegs in a Square",
+"strips": [
+[
+44,
+458.2,
+561.8
+]
+]
+},
+{
+"name": "Painting the Fence",
+"strips": [
+[
+68,
+408.8,
+498.5
+]
+]
+},
+{
+"name": "Seven Cities of Gold",
+"strips": [
+[
+66,
+578.3,
+683.2
+],
+[
+67,
+110,
+185.5
+]
+]
+},
+{
+"name": "North by Northwest",
+"strips": [
+[
+45,
+562.5,
+637.0
+]
+]
+},
+{
+"name": "Fifteen Bits and a Spy",
+"strips": [
+[
+61,
+327.8,
+586.0
+]
+]
+},
+{
+"name": "Coins in a Row",
+"strips": [
+[
+46,
+118.5,
+219.2
+]
+]
+},
+{
+"name": "Ping-pong Progression",
+"strips": [
+[
+26,
+399.6,
+475.5
+]
+]
+},
+{
+"name": "Bindweed and Honeysuckle",
+"strips": [
+[
+49,
+193.7,
+275.3
+]
+]
+},
+{
+"name": "Worms and Water",
+"strips": [
+[
+62,
+626.0,
+683.2
+],
+[
+63,
+110,
+169.7
+]
+]
+},
+{
+"name": "Split Games",
+"strips": [
+[
+56,
+260.3,
+426.1
+]
+]
+},
+{
+"name": "Lines Through a Grid",
+"strips": [
+[
+13,
+283.7,
+342.4
+]
+]
+},
+{
+"name": "Conversation on a Bus",
+"strips": [
+[
+43,
+287.4,
+481.2
+]
+]
+},
+{
+"name": "Infected Cubes",
+"strips": [
+[
+54,
+223.8,
+330.4
+]
+]
+},
+{
+"name": "Wild Guess",
+"strips": [
+[
+42,
+118.5,
+236.4
+]
+]
+},
+{
+"name": "Trapped in Thickland",
+"strips": [
+[
+27,
+614.1,
+683.2
+],
+[
+28,
+110,
+197.4
+]
+]
+},
+{
+"name": "Spiders on a Cube",
+"strips": [
+[
+24,
+214.3,
+292.5
+]
+]
+},
+{
+"name": "Other Side of the Coin",
+"strips": [
+[
+11,
+342.3,
+520.2
+]
+]
+},
+{
+"name": "Big Pairs in a Matrix",
+"strips": [
+[
+15,
+312.1,
+384.7
+]
+]
+},
+{
+"name": "Bracing the Grid",
+"strips": [
+[
+34,
+224.4,
+462.1
+]
+]
+},
+{
+"name": "Martians in a Circle",
+"strips": [
+[
+9,
+589.1,
+683.2
+],
+[
+10,
+110,
+118.5
+]
+]
+},
+{
+"name": "Fourth Corner",
+"strips": [
+[
+17,
+531.3,
+602.1
+]
+]
+},
+{
+"name": "Alternative Dice",
+"strips": [
+[
+50,
+251.3,
+339.1
+]
+]
+},
+{
+"name": "Gaming the Quilt",
+"strips": [
+[
+34,
+462.1,
+532.2
+]
+]
+},
+{
+"name": "Losing at Dice",
+"strips": [
+[
+38,
+396.2,
+529.1
+]
+]
+},
+{
+"name": "Splitting a Hexagon",
+"strips": [
+[
+17,
+118.5,
+177.3
+]
+]
+},
+{
+"name": "Comparing Numbers, Version I",
+"strips": [
+[
+25,
+270.7,
+448.4
+]
+]
+},
+{
+"name": "Ice Cream Cake",
+"strips": [
+[
+64,
+337.5,
+438.2
+]
+]
+},
+{
+"name": "Belt Around the Earth",
+"strips": [
+[
+17,
+236.1,
+319.0
+]
+]
+},
+{
+"name": "Finding the Missing Number",
+"strips": [
+[
+16,
+494.4,
+586.4
+]
+]
+},
+{
+"name": "Integral Rectangles",
+"strips": [
+[
+38,
+323.6,
+396.2
+]
+]
+},
+{
+"name": "Phone Call",
+"strips": [
+[
+9,
+227.9,
+301.0
+]
+]
+},
+{
+"name": "Pegs on the Half-plane",
+"strips": [
+[
+40,
+588.9,
+683.2
+],
+[
+41,
+110,
+266.0
+]
+]
+},
+{
+"name": "Missing Card",
+"strips": [
+[
+26,
+275.1,
+399.6
+]
+]
+},
+{
+"name": "Magnetic Dollars",
+"strips": [
+[
+28,
+393.4,
+527.5
+]
+]
+},
+{
+"name": "Lemming on a Chessboard",
+"strips": [
+[
+29,
+510.4,
+624.3
+]
+]
+},
+{
+"name": "Bacteria on the Plane",
+"strips": [
+[
+37,
+260.0,
+389.6
+]
+]
+},
+{
+"name": "Zeroes and Ones",
+"strips": [
+[
+40,
+185.8,
+271.4
+]
+]
+},
+{
+"name": "Winning at Wimbledon",
+"strips": [
+[
+10,
+118.5,
+216.8
+]
+]
+},
+{
+"name": "Uniting the Loops",
+"strips": [
+[
+49,
+275.3,
+520.6
+]
+]
+},
+{
+"name": "Packing Slashes",
+"strips": [
+[
+29,
+624.3,
+683.2
+],
+[
+30,
+110,
+118.5
+]
+]
+},
+{
+"name": "Uniform Unit Distances",
+"strips": [
+[
+16,
+186.5,
+278.4
+]
+]
+},
+{
+"name": "Portrait",
+"strips": [
+[
+8,
+428.5,
+498.8
+]
+]
+},
+{
+"name": "Whim-Nim",
+"strips": [
+[
+37,
+118.5,
+260.0
+]
+]
+},
+{
+"name": "Exponent upon Exponent",
+"strips": [
+[
+45,
+390.4,
+487.9
+]
+]
+},
+{
+"name": "Coin Game",
+"strips": [
+[
+65,
+343.1,
+461.3
+]
+]
+},
+{
+"name": "Two-point Conversion",
+"strips": [
+[
+57,
+500.9,
+600.7
+]
+]
+},
+{
+"name": "Random Intervals",
+"strips": [
+[
+45,
+487.9,
+562.5
+]
+]
+},
+{
+"name": "Random Chord",
+"strips": [
+[
+58,
+174.6,
+238.7
+]
+]
+},
+{
+"name": "Names in Boxes",
+"strips": [
+[
+65,
+118.5,
+260.7
+]
+]
+},
+{
+"name": "Roulette for the Unwary",
+"strips": [
+[
+43,
+577.7,
+683.2
+],
+[
+44,
+110,
+176.5
+]
+]
+},
+{
+"name": "Pairs at Maximum Distance",
+"strips": [
+[
+25,
+200.6,
+270.7
+]
+]
+},
+{
+"name": "Slabs in 3-Space",
+"strips": [
+[
+44,
+379.6,
+458.2
+]
+]
+},
+{
+"name": "Truly Even Split",
+"strips": [
+[
+30,
+219.5,
+295.7
+]
+]
+},
+{
+"name": "Uniformity at the Bakery",
+"strips": [
+[
+44,
+176.5,
+379.6
+]
+]
+},
+{
+"name": "Missing Digit",
+"strips": [
+[
+45,
+637.0,
+683.2
+],
+[
+46,
+110,
+118.5
+]
+]
+},
+{
+"name": "Finding the Rectangles",
+"strips": [
+[
+48,
+335.6,
+396.0
+]
+]
+},
+{
+"name": "Shoes, Socks, and Gloves",
+"strips": [
+[
+9,
+118.5,
+227.9
+]
+]
+},
+{
+"name": "Impressionable Thinkers",
+"strips": [
+[
+53,
+243.4,
+363.0
+]
+]
+},
+{
+"name": "Next Card Bet",
+"strips": [
+[
+52,
+332.1,
+462.0
+]
+]
+},
+{
+"name": "Crossing the River",
+"strips": [
+[
+13,
+507.6,
+614.1
+]
+]
+},
+{
+"name": "Half Grown",
+"strips": [
+[
+8,
+498.8,
+683.2
+],
+[
+9,
+110,
+118.5
+]
+]
+},
+{
+"name": "Painting the Polyhedron",
+"strips": [
+[
+36,
+614.2,
+683.2
+],
+[
+37,
+110,
+118.5
+]
+]
+},
+{
+"name": "Filling a Bucket",
+"strips": [
+[
+44,
+561.8,
+683.2
+],
+[
+45,
+110,
+118.5
+]
+]
+},
+{
+"name": "Numbers on Foreheads",
+"strips": [
+[
+31,
+378.3,
+484.8
+]
+]
+},
+{
+"name": "Profit and Loss",
+"strips": [
+[
+40,
+345.0,
+479.4
+]
+]
+},
+{
+"name": "Even Split",
+"strips": [
+[
+50,
+339.1,
+403.0
+]
+]
+},
+{
+"name": "Angles in Space",
+"strips": [
+[
+55,
+506.0,
+565.5
+]
+]
+},
+{
+"name": "Garnering Fruit",
+"strips": [
+[
+65,
+260.7,
+343.1
+]
+]
+},
+{
+"name": "Chessboard Guess",
+"strips": [
+[
+56,
+118.5,
+260.3
+]
+]
+},
+{
+"name": "Watermelons",
+"strips": [
+[
+12,
+118.5,
+197.2
+]
+]
+},
+{
+"name": "Red and Blue Hats in a Line",
+"strips": [
+[
+23,
+460.0,
+626.1
+]
+]
+},
+{
+"name": "Turning the Die",
+"strips": [
+[
+41,
+481.9,
+589.7
+]
+]
+},
+{
+"name": "Powers of Two",
+"strips": [
+[
+9,
+301.0,
+350.2
+]
+]
+},
+{
+"name": "Majority Hats",
+"strips": [
+[
+60,
+302.8,
+458.3
+]
+]
+},
+{
+"name": "Domino Task",
+"strips": [
+[
+15,
+191.1,
+312.1
+]
+]
+},
+{
+"name": "Sprinklers in a Field",
+"strips": [
+[
+14,
+175.0,
+251.6
+]
+]
+},
+{
+"name": "Three Sticks",
+"strips": [
+[
+23,
+626.1,
+683.2
+],
+[
+24,
+110,
+214.3
+]
+]
+},
+{
+"name": "Prisoner and Dog",
+"strips": [
+[
+60,
+625.8,
+683.2
+],
+[
+61,
+110,
+178.1
+]
+]
+},
+{
+"name": "Bat and Ball",
+"strips": [
+[
+8,
+252.0,
+310.4
+]
+]
+},
+{
+"name": "Meet the Williams Sisters",
+"strips": [
+[
+22,
+253.5,
+363.5
+]
+]
+},
+{
+"name": "Curve and Three Shadows",
+"strips": [
+[
+60,
+231.4,
+302.8
+]
+]
+},
+{
+"name": "Rolling All the Numbers",
+"strips": [
+[
+16,
+118.5,
+186.5
+]
+]
+},
+{
+"name": "Coconut Classic",
+"strips": [
+[
+50,
+403.0,
+539.4
+]
+]
+},
+{
+"name": "Same Sum Dice",
+"strips": [
+[
+51,
+601.6,
+683.2
+],
+[
+52,
+110,
+118.5
+]
+]
+},
+{
+"name": "Bidding in the Dark",
+"strips": [
+[
+13,
+342.4,
+448.9
+]
+]
+},
+{
+"name": "Two Different Distances",
+"strips": [
+[
+18,
+613.1,
+683.2
+],
+[
+19,
+110,
+118.5
+]
+]
+},
+{
+"name": "Competing for Programmers",
+"strips": [
+[
+38,
+601.6,
+683.2
+],
+[
+39,
+110,
+171.3
+]
+]
+},
+{
+"name": "Ascending and Descending",
+"strips": [
+[
+36,
+273.8,
+343.9
+]
+]
+},
+{
+"name": "Sleeping Beauty",
+"strips": [
+[
+65,
+602.2,
+683.2
+],
+[
+66,
+110,
+366.9
+]
+]
+},
+{
+"name": "Tiling a Polygon",
+"strips": [
+[
+48,
+625.6,
+683.2
+],
+[
+49,
+110,
+193.7
+]
+]
+},
+{
+"name": "Unbreakable Domino Cover",
+"strips": [
+[
+41,
+266.0,
+481.9
+]
+]
+},
+{
+"name": "Gluing Pyramids",
+"strips": [
+[
+45,
+303.4,
+390.4
+]
+]
+},
+{
+"name": "Chameleons",
+"strips": [
+[
+42,
+484.3,
+566.4
+]
+]
+},
+{
+"name": "Points on a Circle",
+"strips": [
+[
+18,
+550.6,
+613.1
+]
+]
+},
+{
+"name": "Halfway Points",
+"strips": [
+[
+54,
+543.4,
+626.0
+]
+]
+},
+{
+"name": "Unbroken Curves",
+"strips": [
+[
+35,
+612.7,
+683.2
+],
+[
+36,
+110,
+273.8
+]
+]
+},
+{
+"name": "Polygon Midpoints",
+"strips": [
+[
+30,
+548.3,
+624.6
+]
+]
+},
+{
+"name": "Conway’s Immobilizer",
+"strips": [
+[
+51,
+408.5,
+601.6
+]
+]
+},
+{
+"name": "Next Card Red",
+"strips": [
+[
+20,
+625.9,
+683.2
+],
+[
+21,
+110,
+189.3
+]
+]
+},
+{
+"name": "Light Bulbs in a Circle",
+"strips": [
+[
+63,
+169.7,
+275.1
+]
+]
+},
+{
+"name": "Flying Saucers",
+"strips": [
+[
+35,
+150.7,
+312.0
+]
+]
+},
+{
+"name": "Coins on the Table",
+"strips": [
+[
+43,
+481.2,
+577.7
+]
+]
+},
+{
+"name": "Stopping After the Boy",
+"strips": [
+[
+17,
+319.0,
+389.7
+]
+]
+},
+{
+"name": "Invisible Corners",
+"strips": [
+[
+65,
+543.7,
+602.2
+]
+]
+},
+{
+"name": "Nonrepeating String",
+"strips": [
+[
+31,
+555.4,
+626.0
+]
+]
+},
+{
+"name": "Pegs on the Corners",
+"strips": [
+[
+61,
+178.1,
+270.9
+]
+]
+},
+{
+"name": "Baby Frog",
+"strips": [
+[
+33,
+118.5,
+305.5
+]
+]
+},
+{
+"name": "One-bulb Room",
+"strips": [
+[
+53,
+363.0,
+470.4
+]
+]
+},
+{
+"name": "Tiling with Crosses",
+"strips": [
+[
+54,
+118.5,
+177.1
+]
+]
+},
+{
+"name": "Odd Run of Heads",
+"strips": [
+[
+18,
+118.5,
+181.0
+]
+]
+},
+{
+"name": "Napkins in a Random Setting",
+"strips": [
+[
+59,
+314.1,
+527.7
+]
+]
+},
+{
+"name": "Unbroken Lines",
+"strips": [
+[
+32,
+432.7,
+683.2
+],
+[
+33,
+110,
+118.5
+]
+]
+},
+{
+"name": "Birthday Match",
+"strips": [
+[
+10,
+427.9,
+526.8
+]
+]
+},
+{
+"name": "Bias Test",
+"strips": [
+[
+31,
+484.8,
+555.4
+]
+]
+},
+{
+"name": "Area–Perimeter Match",
+"strips": [
+[
+29,
+302.2,
+355.4
+]
+]
+},
+{
+"name": "Bugs on a Polyhedron",
+"strips": [
+[
+56,
+626.1,
+683.2
+],
+[
+57,
+110,
+162.6
+]
+]
+},
+{
+"name": "Bugs on Four Lines",
+"strips": [
+[
+46,
+219.2,
+452.2
+]
+]
+},
+{
+"name": "Dot-town Exodus",
+"strips": [
+[
+36,
+343.9,
+450.0
+]
+]
+},
+{
+"name": "Self-referential Number",
+"strips": [
+[
+68,
+576.3,
+683.2
+],
+[
+69,
+110,
+118.5
+]
+]
+},
+{
+"name": "Sharing a Pizza",
+"strips": [
+[
+64,
+438.2,
+587.6
+]
+]
+},
+{
+"name": "Figure Eights in the Plane",
+"strips": [
+[
+48,
+396.0,
+553.3
+]
+]
+},
+{
+"name": "Testing Ostrich Eggs",
+"strips": [
+[
+20,
+435.8,
+566.8
+]
+]
+},
+{
+"name": "Hopping and Skipping",
+"strips": [
+[
+24,
+292.5,
+459.9
+]
+]
+},
+{
+"name": "Prime Test",
+"strips": [
+[
+29,
+355.4,
+408.5
+]
+]
+},
+{
+"name": "Increasing Routes",
+"strips": [
+[
+35,
+312.0,
+412.0
+]
+]
+},
+{
+"name": "Signs in an Array",
+"strips": [
+[
+10,
+353.5,
+427.9
+]
+]
+},
+{
+"name": "Waiting for Heads",
+"strips": [
+[
+22,
+625.1,
+683.2
+],
+[
+23,
+110,
+118.5
+]
+]
+},
+{
+"name": "Three-Way Election",
+"strips": [
+[
+31,
+626.0,
+683.2
+],
+[
+32,
+110,
+217.3
+]
+]
+},
+{
+"name": "Filling the Cup",
+"strips": [
+[
+69,
+118.5,
+200.6
+]
+]
+},
+{
+"name": "Deterministic Poker",
+"strips": [
+[
+46,
+552.9,
+683.2
+],
+[
+47,
+110,
+118.5
+]
+]
+},
+{
+"name": "Rolling a Six",
+"strips": [
+[
+59,
+118.5,
+180.2
+]
+]
+},
+{
+"name": "Air Routes in Aerostan",
+"strips": [
+[
+12,
+263.9,
+354.6
+]
+]
+},
+{
+"name": "Meeting the Ferry",
+"strips": [
+[
+10,
+526.8,
+613.1
+]
+]
+},
+{
+"name": "Two Round-robins",
+"strips": [
+[
+43,
+118.5,
+227.0
+]
+]
+},
+{
+"name": "Boy Born on Tuesday",
+"strips": [
+[
+12,
+197.2,
+263.9
+]
+]
+},
+{
+"name": "Fewest Slopes",
+"strips": [
+[
+15,
+469.2,
+553.8
+]
+]
+},
+{
+"name": "Y’s in the Plane",
+"strips": [
+[
+54,
+177.1,
+223.8
+]
+]
+},
+{
+"name": "Skipping a Number",
+"strips": [
+[
+32,
+217.3,
+312.1
+]
+]
+},
+{
+"name": "Subsets with Constraints",
+"strips": [
+[
+18,
+181.0,
+267.4
+]
+]
+},
+{
+"name": "Alternating Powers",
+"strips": [
+[
+51,
+118.5,
+215.2
+]
+]
+},
+{
+"name": "Dishwashing Game",
+"strips": [
+[
+55,
+254.8,
+362.5
+]
+]
+},
+{
+"name": "Generating the Rationals",
+"strips": [
+[
+63,
+275.1,
+344.6
+]
+]
+},
+{
+"name": "Soldiers in a Field",
+"strips": [
+[
+39,
+542.1,
+625.8
+]
+]
+},
+{
+"name": "Chinese Nim",
+"strips": [
+[
+37,
+562.3,
+683.2
+],
+[
+38,
+110,
+118.5
+]
+]
+},
+{
+"name": "Mathematical Bookworm",
+"strips": [
+[
+11,
+235.2,
+342.3
+]
+]
+},
+{
+"name": "Strength of Schedule",
+"strips": [
+[
+39,
+171.3,
+339.0
+]
+]
+},
+{
+"name": "Leading All the Way",
+"strips": [
+[
+68,
+498.5,
+576.3
+]
+]
+},
+{
+"name": "Random Intersection",
+"strips": [
+[
+40,
+271.4,
+345.0
+]
+]
+},
+{
+"name": "Factorials and Squares",
+"strips": [
+[
+54,
+484.8,
+543.4
+]
+]
+},
+{
+"name": "Not Burning Brownies",
+"strips": [
+[
+38,
+118.5,
+214.9
+]
+]
+},
+{
+"name": "Polygon on the Grid",
+"strips": [
+[
+45,
+118.5,
+216.9
+]
+]
+},
+{
+"name": "Painting the Cubes",
+"strips": [
+[
+27,
+118.5,
+188.9
+]
+]
+},
+{
+"name": "Identifying the Majority",
+"strips": [
+[
+27,
+259.3,
+353.6
+]
+]
+},
+{
+"name": "Zero-sum Vectors",
+"strips": [
+[
+67,
+528.0,
+683.2
+],
+[
+68,
+110,
+118.5
+]
+]
+},
+{
+"name": "Returning Pool Shot",
+"strips": [
+[
+27,
+353.6,
+471.9
+]
+]
+},
+{
+"name": "Pancake Stacks",
+"strips": [
+[
+27,
+471.9,
+614.1
+]
+]
+},
+{
+"name": "Life Is a Bowl of Cherries",
+"strips": [
+[
+16,
+278.4,
+494.4
+]
+]
+},
+{
+"name": "Boarding the Manhole",
+"strips": [
+[
+40,
+479.4,
+588.9
+]
+]
+},
+{
+"name": "Random Judge",
+"strips": [
+[
+55,
+362.5,
+506.0
+]
+]
+},
+{
+"name": "Colors and Distances",
+"strips": [
+[
+68,
+118.5,
+221.3
+]
+]
+},
+{
+"name": "Gladiators, Version II",
+"strips": [
+[
+58,
+576.0,
+683.2
+],
+[
+59,
+110,
+118.5
+]
+]
+},
+{
+"name": "Traveling Salesmen",
+"strips": [
+[
+59,
+180.2,
+314.1
+]
+]
+},
+{
+"name": "Badly Designed Clock",
+"strips": [
+[
+62,
+508.8,
+579.4
+]
+]
+},
+{
+"name": "Watches on the Table",
+"strips": [
+[
+18,
+377.7,
+464.1
+]
+]
+},
+{
+"name": "Gasoline Crisis",
+"strips": [
+[
+39,
+458.6,
+542.1
+]
+]
+},
+{
+"name": "Chomp",
+"strips": [
+[
+12,
+470.3,
+683.2
+],
+[
+13,
+110,
+118.5
+]
+]
+},
+{
+"name": "Players and Winners",
+"strips": [
+[
+19,
+207.7,
+297.0
+]
+]
+},
+{
+"name": "Handshakes at a Party",
+"strips": [
+[
+29,
+200.3,
+302.2
+]
+]
+},
+{
+"name": "Pie in the Sky",
+"strips": [
+[
+20,
+388.7,
+435.8
+]
+]
+},
+{
+"name": "Find the Robot",
+"strips": [
+[
+47,
+361.7,
+462.6
+]
+]
+},
+{
+"name": "Monk on a Mountain",
+"strips": [
+[
+11,
+118.5,
+235.2
+]
+]
+},
+{
+"name": "Tiling with L’s",
+"strips": [
+[
+55,
+195.3,
+254.8
+]
+]
+},
+{
+"name": "Lattice Points and Line Segments",
+"strips": [
+[
+21,
+612.1,
+683.2
+],
+[
+22,
+110,
+118.5
+]
+]
+},
+{
+"name": "Attic Lamp",
+"strips": [
+[
+17,
+389.7,
+472.5
+]
+]
+},
+{
+"name": "Line Up by Height",
+"strips": [
+[
+30,
+295.7,
+383.9
+]
+]
+},
+{
+"name": "Sequencing the Digits",
+"strips": [
+[
+33,
+305.5,
+372.9
+]
+]
+},
+{
+"name": "Boardroom Reduction",
+"strips": [
+[
+66,
+366.9,
+520.4
+]
+]
+},
+{
+"name": "Red Points and Blue",
+"strips": [
+[
+27,
+188.9,
+259.3
+]
+]
+},
+{
+"name": "Men with Sisters",
+"strips": [
+[
+14,
+316.3,
+369.0
+]
+]
+},
+{
+"name": "Protecting the Statue",
+"strips": [
+[
+41,
+589.7,
+683.2
+],
+[
+42,
+110,
+118.5
+]
+]
+},
+{
+"name": "Early Commuter",
+"strips": [
+[
+47,
+462.6,
+539.7
+]
+]
+},
+{
+"name": "Hazards of Electronic Coinflipping",
+"strips": [
+[
+28,
+613.2,
+683.2
+],
+[
+29,
+110,
+200.3
+]
+]
+},
+{
+"name": "Salaries and Raises",
+"strips": [
+[
+14,
+498.3,
+600.6
+]
+]
+},
+{
+"name": "No Twins Today",
+"strips": [
+[
+8,
+310.4,
+428.5
+]
+]
+},
+{
+"name": "Locker Doors",
+"strips": [
+[
+39,
+339.0,
+458.6
+]
+]
+},
+{
+"name": "Who Won the Series?",
+"strips": [
+[
+54,
+626.0,
+683.2
+],
+[
+55,
+110,
+195.3
+]
+]
+},
+{
+"name": "Two Runners",
+"strips": [
+[
+14,
+600.6,
+683.2
+],
+[
+15,
+110,
+118.5
+]
+]
+},
+{
+"name": "Three Martians at the Crossroads",
+"strips": [
+[
+15,
+553.8,
+683.2
+],
+[
+16,
+110,
+118.5
+]
+]
+},
+{
+"name": "Infected Checkerboard",
+"strips": [
+[
+50,
+539.4,
+683.2
+],
+[
+51,
+110,
+118.5
+]
+]
+},
+{
+"name": "Rating the Horses",
+"strips": [
+[
+23,
+389.6,
+460.0
+]
+]
+},
+{
+"name": "Polyhedron Faces",
+"strips": [
+[
+10,
+216.8,
+267.2
+]
+]
+},
+{
+"name": "Comparing Numbers, Version II",
+"strips": [
+[
+25,
+448.4,
+590.3
+]
+]
+},
+{
+"name": "Circular Shadows II",
+"strips": [
+[
+48,
+275.3,
+335.6
+]
+]
+},
+{
+"name": "Sphere and Quadrilateral",
+"strips": [
+[
+53,
+470.4,
+529.9
+]
+]
+},
+{
+"name": "Rotating Coin",
+"strips": [
+[
+9,
+350.2,
+539.9
+]
+]
+},
+{
+"name": "Random Bias",
+"strips": [
+[
+58,
+290.8,
+378.8
+]
+]
+},
+{
+"name": "Subtracting Around the Corner",
+"strips": [
+[
+47,
+539.7,
+683.2
+],
+[
+48,
+110,
+118.5
+]
+]
+},
+{
+"name": "Rolling Pencil",
+"strips": [
+[
+11,
+611.7,
+683.2
+],
+[
+12,
+110,
+118.5
+]
+]
+},
+{
+"name": "Ants on the Circle",
+"strips": [
+[
+37,
+458.0,
+562.3
+]
+]
+},
+{
+"name": "Broken ATM",
+"strips": [
+[
+15,
+118.5,
+191.1
+]
+]
+},
+{
+"name": "Bags of Marbles",
+"strips": [
+[
+14,
+251.6,
+316.3
+]
+]
+},
+{
+"name": "Sinking 15",
+"strips": [
+[
+10,
+613.1,
+683.2
+],
+[
+11,
+110,
+118.5
+]
+]
+},
+{
+"name": "Guarding the Gallery",
+"strips": [
+[
+34,
+626.1,
+683.2
+],
+[
+35,
+110,
+150.7
+]
+]
+},
+{
+"name": "Laser Gun",
+"strips": [
+[
+42,
+236.4,
+342.4
+]
+]
+},
+{
+"name": "Moth’s Tour",
+"strips": [
+[
+64,
+587.6,
+683.2
+],
+[
+65,
+110,
+118.5
+]
+]
+},
+{
+"name": "Bugs on a Line",
+"strips": [
+[
+60,
+458.3,
+625.8
+]
+]
+},
+{
+"name": "Circles in Space",
+"strips": [
+[
+61,
+270.9,
+327.8
+]
+]
+},
+{
+"name": "First-grade Division",
+"strips": [
+[
+46,
+452.2,
+552.9
+]
+]
+},
+{
+"name": "First Odd Number",
+"strips": [
+[
+21,
+509.9,
+612.1
+]
+]
+},
+{
+"name": "King’s Salary",
+"strips": [
+[
+25,
+590.3,
+683.2
+],
+[
+26,
+110,
+187.3
+]
+]
+},
+{
+"name": "Poorly Placed Dominoes",
+"strips": [
+[
+37,
+389.6,
+458.0
+]
+]
+},
+{
+"name": "Coin Testing",
+"strips": [
+[
+59,
+625.2,
+683.2
+],
+[
+60,
+110,
+231.4
+]
+]
+},
+{
+"name": "Biased Betting",
+"strips": [
+[
+35,
+476.0,
+612.7
+]
+]
+},
+{
+"name": "Dots and Boxes Variation",
+"strips": [
+[
+14,
+369.0,
+445.6
+]
+]
+},
+{
+"name": "Double Cover by Lines",
+"strips": [
+[
+38,
+214.9,
+323.6
+]
+]
+},
+{
+"name": "Tipping the Scales",
+"strips": [
+[
+12,
+354.6,
+470.3
+]
+]
+},
+{
+"name": "Rows and Columns",
+"strips": [
+[
+30,
+624.6,
+683.2
+],
+[
+31,
+110,
+118.5
+]
+]
+},
+{
+"name": "Curve on a Sphere",
+"strips": [
+[
+35,
+412.0,
+476.0
+]
+]
+},
+{
+"name": "Snake Game",
+"strips": [
+[
+31,
+213.1,
+319.6
+]
+]
+},
+{
+"name": "More Magnetic Dollars",
+"strips": [
+[
+67,
+331.5,
+442.2
+]
+]
+},
+{
+"name": "Life Isn’t a Bowl of Cherries?",
+"strips": [
+[
+19,
+600.4,
+683.2
+],
+[
+20,
+110,
+118.5
+]
+]
+},
+{
+"name": "Flipping the Pentagon",
+"strips": [
+[
+61,
+586.0,
+683.2
+],
+[
+62,
+110,
+118.5
+]
+]
+},
+{
+"name": "Serious Candidates",
+"strips": [
+[
+57,
+162.6,
+436.9
+]
+]
+},
+{
+"name": "Bugging a Disk",
+"strips": [
+[
+18,
+464.1,
+550.6
+]
+]
+},
+{
+"name": "Sums and Differences",
+"strips": [
+[
+57,
+436.9,
+500.9
+]
+]
+},
+{
+"name": "Powers of Roots",
+"strips": [
+[
+48,
+118.5,
+178.8
+]
+]
+},
+{
+"name": "Raising Art Value",
+"strips": [
+[
+21,
+395.8,
+509.9
+]
+]
+},
+{
+"name": "Recovering the Polynomial",
+"strips": [
+[
+33,
+372.9,
+465.5
+]
+]
+},
+{
+"name": "Two Balls and a Wall",
+"strips": [
+[
+69,
+200.6,
+342.6
+]
+]
+},
+{
+"name": "Game of Desperation",
+"strips": [
+[
+45,
+216.9,
+303.4
+]
+]
+},
+{
+"name": "Drawing Socks",
+"strips": [
+[
+36,
+450.0,
+520.1
+]
+]
+},
+{
+"name": "Divisibility Game",
+"strips": [
+[
+24,
+459.9,
+587.1
+]
+]
+},
+{
+"name": "Poker Quickie",
+"strips": [
+[
+13,
+189.1,
+283.7
+]
+]
+},
+{
+"name": "Bacterial Reproduction",
+"strips": [
+[
+13,
+614.1,
+683.2
+],
+[
+14,
+110,
+175.0
+]
+]
+},
+{
+"name": "Wires under the Hudson",
+"strips": [
+[
+42,
+566.4,
+683.2
+],
+[
+43,
+110,
+118.5
+]
+]
+},
+{
+"name": "Attention Paraskevidekatriaphobes",
+"strips": [
+[
+21,
+189.3,
+255.6
+]
+]
+},
+{
+"name": "Two Monks on a Mountain",
+"strips": [
+[
+49,
+626.1,
+683.2
+],
+[
+50,
+110,
+251.3
+]
+]
+},
+{
+"name": "Path Through the Cells",
+"strips": [
+[
+36,
+520.1,
+614.2
+]
+]
+},
+{
+"name": "Option Hats",
+"strips": [
+[
+52,
+626.1,
+683.2
+],
+[
+53,
+110,
+243.4
+]
+]
+},
+{
+"name": "Odd Light Flips",
+"strips": [
+[
+26,
+564.1,
+683.2
+],
+[
+27,
+110,
+118.5
+]
+]
+},
+{
+"name": "Emptying a Bucket",
+"strips": [
+[
+63,
+344.6,
+566.4
+]
+]
+},
+{
+"name": "Pushing the Pedal",
+"strips": [
+[
+26,
+475.5,
+564.1
+]
+]
+},
+{
+"name": "Red and Black Sides",
+"strips": [
+[
+32,
+312.1,
+432.7
+]
+]
+},
+{
+"name": "Bluffing with Reals",
+"strips": [
+[
+53,
+529.9,
+683.2
+],
+[
+54,
+110,
+118.5
+]
+]
+},
+{
+"name": "Swedish Lottery",
+"strips": [
+[
+57,
+600.7,
+683.2
+],
+[
+58,
+110,
+174.6
+]
+]
+},
+{
+"name": "Precarious Picture",
+"strips": [
+[
+47,
+118.5,
+361.7
+]
+]
+},
+{
+"name": "An Attractive Game",
+"strips": [
+[
+48,
+178.8,
+275.3
+]
+]
+},
+{
+"name": "Curves on Potatoes",
+"strips": [
+[
+30,
+383.9,
+448.2
+]
+]
+},
+{
+"name": "Gladiators, Version I",
+"strips": [
+[
+58,
+378.8,
+576.0
+]
+]
+},
+{
+"name": "Candles on a Cake",
+"strips": [
+[
+24,
+587.1,
+683.2
+],
+[
+25,
+110,
+118.5
+]
+]
+},
+{
+"name": "Efficient Pizza-cutting",
+"strips": [
+[
+17,
+472.5,
+531.3
+]
+]
+}
+]
