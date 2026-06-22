@@ -1,0 +1,26 @@
+name: daily-hello
+
+on:
+  schedule:
+    # ponytail: GitHub cron is UTC-only. 06:00 UTC = 08:00 Sarajevo in summer (CEST),
+    # 07:00 in winter (CET). If exact 08:00 year-round matters, add a second
+    # '0 7 * * *' line and gate on the local hour inside the script.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python send_email.py
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
