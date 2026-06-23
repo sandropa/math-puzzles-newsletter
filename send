@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Send a test puzzle email. Optional arg = puzzle name, else today's puzzle.
+#   ./send "Measuring with Fuses"
+# Emails come from .env (SENDER_EMAIL, RECIPIENT_EMAIL); Gmail creds from token.json.
+set -euo pipefail
+cd "$(dirname "$0")"
+set -a; source .env; set +a
+tok() { .venv/bin/python -c "import json;print(json.load(open('token.json'))['$1'])"; }
+GMAIL_CLIENT_ID=$(tok client_id) \
+GMAIL_CLIENT_SECRET=$(tok client_secret) \
+GMAIL_REFRESH_TOKEN=$(tok refresh_token) \
+.venv/bin/python send_email.py "$@"

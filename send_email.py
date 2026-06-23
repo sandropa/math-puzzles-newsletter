@@ -26,16 +26,24 @@ START = date(2026, 6, 23)  # puzzle #1 goes out on this date
 ZOOM = 2.8
 
 puzzles = json.load(open("puzzles.json"))
-index = (date.today() - START).days
-if not 0 <= index < len(puzzles):
-    print(f"No puzzle for index {index} (have {len(puzzles)}).")
-    sys.exit(0)
+if len(sys.argv) > 1:  # send_email.py "Puzzle Name" -> send that one (testing)
+    name = sys.argv[1].lower()
+    index = next((i for i, p in enumerate(puzzles) if p["name"].lower() == name), -1)
+    if index < 0:
+        sys.exit(f"No puzzle named {sys.argv[1]!r}.")
+else:
+    index = (date.today() - START).days
+    if not 0 <= index < len(puzzles):
+        print(f"No puzzle for index {index} (have {len(puzzles)}).")
+        sys.exit(0)
 puzzle = puzzles[index]
 
 
+doc = fitz.open(stream=urllib.request.urlopen(URL).read(), filetype="pdf")
+
+
 def render(strips):
-    """Crop the puzzle's strips from the PDF and stack them into one PNG."""
-    doc = fitz.open(stream=urllib.request.urlopen(URL).read(), filetype="pdf")
+    """Crop the given strips from the PDF and stack them into one PNG."""
     imgs = []
     for page, top, bottom, x0, x1 in strips:
         pix = doc[page].get_pixmap(
@@ -70,26 +78,27 @@ msg["From"] = os.environ["SENDER_EMAIL"]
 msg["To"] = os.environ["RECIPIENT_EMAIL"]
 msg["Subject"] = f"Daily Puzzle #{index + 1}: {puzzle['name']}"
 msg.set_content(f"Today's puzzle: {puzzle['name']} — view with images enabled.")
+
+# Problem first, then a screenful of empty space, then the solution (scroll to reveal).
 msg.add_alternative(
     '<div style="font-family:Georgia,serif;padding:40px;box-sizing:border-box">'
     '<img src="cid:puzzle" style="max-width:100%;display:block">'
-    "<!-- attribution (off for now):"
-    '<p style="color:#888;font-size:12px;margin-top:16px">'
-    'From <i>Mathematical Puzzles</i> (Revised Edition) by Peter Winkler — '
-    'free at <a href="https://math.dartmouth.edu/~pw/">math.dartmouth.edu/~pw</a>.'
-    "</p>-->"
-    "</div>",
+    + "<br>" * 40  # HEY strips big margins; blank lines make the scroll gap
+    + '<img src="cid:solution" style="max-width:100%;display:block">'
+    + "</div>",
     subtype="html",
 )
 html_part = msg.get_payload()[1]
 html_part.add_related(render(puzzle["strips"]), "image", "png", cid="puzzle")
-# Force inline disposition or HEY (and some others) file it as an attachment.
-img_part = html_part.get_payload()[1]
-if img_part.get("Content-Disposition"):
-    img_part.replace_header("Content-Disposition", "inline")
-else:
-    img_part.add_header("Content-Disposition", "inline")
-img_part.add_header("X-Attachment-Id", "puzzle")
+html_part.add_related(render(puzzle["solution"]), "image", "png", cid="solution")
+# Force inline disposition or HEY (and some others) file the images as attachments.
+for img_part in html_part.get_payload()[1:]:
+    cid = img_part["Content-ID"].strip("<>")
+    if img_part.get("Content-Disposition"):
+        img_part.replace_header("Content-Disposition", "inline")
+    else:
+        img_part.add_header("Content-Disposition", "inline")
+    img_part.add_header("X-Attachment-Id", cid)
 
 raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
 build("gmail", "v1", credentials=creds).users().messages().send(
