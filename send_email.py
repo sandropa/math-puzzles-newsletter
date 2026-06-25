@@ -79,18 +79,22 @@ msg["To"] = os.environ["RECIPIENT_EMAIL"]
 msg["Subject"] = f"Daily Puzzle #{index + 1}: {puzzle['name']}"
 msg.set_content(f"Today's puzzle: {puzzle['name']} — view with images enabled.")
 
-# Problem first, then a screenful of empty space, then the solution (scroll to reveal).
+# Problem, then a screenful of empty space before each reveal: hint, then solution.
+GAP = "<br>" * 40  # HEY strips big margins; blank lines make the scroll gap
+parts = [("puzzle", puzzle["strips"])]
+if puzzle.get("hint"):
+    parts.append(("hint", puzzle["hint"]))
+parts.append(("solution", puzzle["solution"]))
+imgs = (GAP.join(f'<img src="cid:{cid}" style="max-width:100%;display:block">' for cid, _ in parts))
 msg.add_alternative(
     '<div style="font-family:Georgia,serif;padding:40px;box-sizing:border-box">'
-    '<img src="cid:puzzle" style="max-width:100%;display:block">'
-    + "<br>" * 40  # HEY strips big margins; blank lines make the scroll gap
-    + '<img src="cid:solution" style="max-width:100%;display:block">'
+    + imgs
     + "</div>",
     subtype="html",
 )
 html_part = msg.get_payload()[1]
-html_part.add_related(render(puzzle["strips"]), "image", "png", cid="puzzle")
-html_part.add_related(render(puzzle["solution"]), "image", "png", cid="solution")
+for cid, strips in parts:
+    html_part.add_related(render(strips), "image", "png", cid=cid)
 # Force inline disposition or HEY (and some others) file the images as attachments.
 for img_part in html_part.get_payload()[1:]:
     cid = img_part["Content-ID"].strip("<>")

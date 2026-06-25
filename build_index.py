@@ -59,32 +59,56 @@ def text_column(page):
 
 
 def content_x(page, top, bottom):
-    """Crop x-range: the full body text column, widened for any figures in the band.
-    Full-column width (not flush-to-content) keeps a short one-line hint from being
-    blown up to fill the email width; flush-left keeps recto/verso pages aligned."""
-    x0, x1 = text_column(page)
-    rects = [i["bbox"] for i in page.get_image_info()]
+    """Crop x-range. Left edge = leftmost text/figure *in the band* (so a page whose
+    rest is an indented figure doesn't shift the crop and clip the text). Right edge =
+    at least the full text-column width, so a short one-line hint isn't blown up."""
+    x0, x1 = PAGE_W, 0
+    rects = [s["bbox"] for b in page.get_text("dict")["blocks"]
+             for l in b.get("lines", []) for s in l["spans"]]
+    rects += [i["bbox"] for i in page.get_image_info()]
     rects += [d["rect"] for d in page.get_drawings()]
     for rx0, ry0, rx1, ry1 in rects:
-        if ry1 > top and ry0 < bottom:  # a figure in the band
+        if ry1 > top and ry0 < bottom:  # intersects the band
             x0, x1 = min(x0, rx0), max(x1, rx1)
+    if x1 <= x0:
+        return (60, PAGE_W - 60)
+    x1 = max(x1, text_column(page)[1])  # never narrower than the body column
     return (x0 - 2, x1 + 2)
 
 
-def strips(sp, sy, ep, ey, top_pad=6):
+def band_bottom(page, top, bottom):
+    """Lowest edge of any text/figure within [top, bottom]; None if the band is empty
+    (e.g. a blank page, or the whitespace before the next chapter)."""
+    yb = None
+    rects = [s["bbox"] for b in page.get_text("dict")["blocks"]
+             for l in b.get("lines", []) for s in l["spans"]]
+    rects += [i["bbox"] for i in page.get_image_info()]
+    rects += [d["rect"] for d in page.get_drawings()]
+    for _, ry0, _, ry1 in rects:
+        if ry1 > top and ry0 < bottom:
+            yb = ry1 if yb is None else max(yb, ry1)
+    return yb
+
+
+def strips(sp, sy, ep, ey, top_pad=6, bot_pad=6):
     """Crop strips spanning a heading at (sp, sy) to a boundary at (ep, ey).
-    top_pad is small for the dense hints list (else it grabs the line above)."""
+    Pads are small for the dense hints list, where the next mark is the very next
+    line (a big pad would clip the current line instead of landing in whitespace)."""
     out = []
     for p in range(sp, ep + 1):
         top = sy - top_pad if p == sp else CONT_TOP
-        bot = ey - 6 if p == ep else content_bottom(doc[p])
+        bot = ey - bot_pad if p == ep else content_bottom(doc[p])
+        cb = band_bottom(doc[p], top, bot)
+        if cb is None:  # blank page / pre-chapter whitespace -> no crop
+            continue
+        bot = min(bot, cb + 4)  # clip trailing whitespace below the last line
         if bot - top > 4:
             x0, x1 = content_x(doc[p], top, bot)
             out.append([p, round(top, 1), round(bot, 1), round(x0, 1), round(x1, 1)])
     return out
 
 
-def marks_to_strips(marks, last_page, top_pad=6, starts=None):
+def marks_to_strips(marks, last_page, top_pad=6, bot_pad=6, starts=None):
     """marks: sorted (page, y, name|None). Named marks become strips bounded by the
     next mark of any kind; None marks are boundaries only (chapter titles).
     starts (in named-mark order) overrides where each strip begins — used to start a
@@ -97,7 +121,7 @@ def marks_to_strips(marks, last_page, top_pad=6, starts=None):
             sp, sy = starts[j]
             j += 1
         ep, ey = marks[i + 1][:2] if i + 1 < len(marks) else (last_page, content_bottom(doc[last_page]))
-        out[norm(name)] = strips(sp, sy, ep, ey, top_pad)
+        out[norm(name)] = strips(sp, sy, ep, ey, top_pad, bot_pad)
     return out
 
 
@@ -146,7 +170,7 @@ def sol_label(spans, txt):  # the "Solution:" line; strip starts here, not at th
 
 
 puz = [(p, y, n) for p, y, n in heads(*PUZ, puzzle_heads)]
-hint_map = marks_to_strips(heads(*HINT, hint_heads), HINT[1], top_pad=1)
+hint_map = marks_to_strips(heads(*HINT, hint_heads), HINT[1], top_pad=1, bot_pad=1)
 sol_starts = [(p, y) for p, y, _ in heads(*SOL, sol_label)]  # 1:1 with solution names, in order
 sol_map = marks_to_strips(heads(*SOL, sol_heads), SOL[1], starts=sol_starts)
 
