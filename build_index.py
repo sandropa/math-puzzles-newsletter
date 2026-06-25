@@ -14,7 +14,6 @@ Each puzzle gets {name, strips, hint, solution}; hint/solution are crop strips t
 """
 
 import json
-import random
 import re
 import urllib.request
 
@@ -184,7 +183,7 @@ for i, (p, y, name) in enumerate(puz):
         "solution": sol_map.get(norm(name)),
     })
 
-random.Random(20260622).shuffle(puzzles)  # fixed-seed shuffle = the daily play order
+# Daily play order = the author's order in "The Puzzles" section (pages 8-69), kept as-is.
 with open("puzzles.json", "w") as f:
     json.dump(puzzles, f, indent=0, ensure_ascii=False)
 

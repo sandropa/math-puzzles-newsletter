@@ -22,7 +22,7 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
 URL = "https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf"
-START = date(2026, 6, 23)  # puzzle #1 goes out on this date
+START = date(2026, 6, 25)  # puzzle #1 goes out on this date
 ZOOM = 2.8
 
 puzzles = json.load(open("puzzles.json"))
